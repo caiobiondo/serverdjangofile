@@ -1,0 +1,1000 @@
+  270  systemctl status backpy.service
+  271  systemctl stop backpy.service
+  272  cd /etc
+  273  cd systemd
+  274  cd system
+  275  pip3 install django-cors-headers
+  276  systemctl status backpy.service 
+  277  systemctl start backpy.service 
+  278  systemctl status backpy.service 
+  279  exit
+  280  cd /etc
+  281  cd systemd
+  282  cd system
+  283  clear
+  284  ls
+  285  systemctl stop backpy.service 
+  286  systemctl status backpy.service 
+  287  clear
+  288  ls
+  289  clear
+  290  ls
+  291  clear
+  292  exit
+  293  nano portaladmpy.service
+  294  exit
+  295  pip3 install -r requirements.txt 
+  296  pip3 install django-cors-headers
+  297  cd
+  298  cd /etc
+  299  cd systemd
+  300  cd system
+  301  systemctl start portaladmpy.service 
+  302  systemctl status portaladmpy.service 
+  303  exit
+  304  cd /etc
+  305  cd systemd
+  306  cd system
+  307  ls
+  308  cat portaladmpy.service 
+  309  cd
+  310  exit
+  311  cd /etc
+  312  cd systemd
+  313  cd system
+  314  ls
+  315  exit
+  316  rm -rf venv
+  317  rm -rf venv3.8/
+  318  exit
+  319  python3 install -r requirements.txt 
+  320  ls
+  321  python3 --version
+  322  pip3 install -r requirements.txt 
+  323  pip3 install django-cors-headers
+  324  python3 manage.py runserver
+  325  exit
+  326  systemctl start portaladmpy.service 
+  327  systemctl status portaladmpy.service 
+  328  systemctl stop portaladmpy.service 
+  329  ls
+  330  exit
+  331  ls
+  332  nano portaladmpy.service 
+  333  mv portaladmpy.service portalusrpy.service 
+  334  ls
+  335  systemctl start portalusrpy.service 
+  336  systemctl status portalusrpy.service 
+  337  systemctl stop portalusrpy.service 
+  338  cat portalusrpy.service 
+  339  cd /home/ubuntu/portal-usr-python
+  340  ls
+  341  pip3 install -r requirements.txt 
+  342  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  343  pip3 install -r requirements.txt 
+  344  pip3 install django-cors-headers
+  345  cd /etc
+  346  cd systemd
+  347  cd system
+  348  ls
+  349  systemctl start portalusrpy.service 
+  350  systemctl status portalusrpy.service 
+  351  systemctl stop portalusrpy.service 
+  352  cd /home/ubuntu/portal-usr-python
+  353  ls
+  354  python3 manage.py createsuperuser
+  355  cd /etc
+  356  cd systemd
+  357  cd system
+  358  ls
+  359  systemctl start portalusrpy.service 
+  360  systemctl status portalusrpy.service 
+  361  exit
+  362  ls
+  363  cd portal_cg_v1/
+  364  cd
+  365  exit
+  366  systemctl status portalusrpy.service 
+  367  cd /etc 
+  368  cd systemd
+  369  cd system
+  370  ls
+  371  systemctl stop portaladmpy-v1.service 
+  372  systemctl status portaladmpy-v1.service 
+  373  cd
+  374  cd /home
+  375  cd caio
+  376  ls
+  377  cd ubuntu/
+  378  ls
+  379  cd portal_cg_v1/
+  380  ls
+  381  python3 manage.py make
+  382  python3 manage.py make migrations
+  383  python3 manage.py makemigrations
+  384  cd /etc
+  385  cd systemd
+  386  cd system
+  387  ls
+  388  systemctl start portaladmpy-v1.service 
+  389  systemctl status portaladmpy-v1.service 
+  390  exit
+  391  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  392  systemctl restart portalusrpy.service
+  393  systemctl status portalusrpy.service
+  394  exit
+  395  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  396  cd /home
+  397  cd ubuntu/
+  398  ls
+  399  cd portal-usr-python/
+  400  cd ..
+  401  rm cg_backend_v1/
+  402  rm -RF cg_backend_v1/
+  403  rm -rf cg_backend_v1/
+  404  clear
+  405  ls
+  406  cd portal
+  407  cd portal-usr-python/
+  408  ls
+  409  python3 manage.py migrate
+  410  python3 manage.py makemigration
+  411  python3 manage.py makemigrations
+  412  cd /etc
+  413  cd systemd
+  414  cd system
+  415  ls
+  416  systemctl stop portalusrpy.service 
+  417  systemctl status portalusrpy.service 
+  418  systemctl start portalusrpy.service 
+  419  systemctl status portalusrpy.service 
+  420  cd
+  421  ls
+  422  cd /home
+  423  cd ubuntu
+  424  cd portal-usr-python/
+  425  systemctl stop portalusrpy.service
+  426  systemctl status portalusrpy.service
+  427  python3 manage.py migrate
+  428  python3 manage.py makemigrations
+  429  systemctl status portalusrpy.service
+  430  systemctl start portalusrpy.service
+  431  systemctl status portalusrpy.service
+  432  systemctl stop portalusrpy.service
+  433  systemctl status portalusrpy.service
+  434  clear
+  435  ls
+  436  cd pythonportal/
+  437  ls
+  438  vi settings.py 
+  439  python3 manage.py migrate
+  440  cd ..
+  441  python3 manage.py migrate
+  442  ls
+  443  cd pythonportal/
+  444  ls
+  445  clear
+  446  ls
+  447  nnano settings.py 
+  448  nano settings.py 
+  449  python3 manage.py migrate
+  450  cd ..
+  451  python3 manage.py migrate
+  452  ls
+  453  cd pythonportal/
+  454  ls
+  455  ano settings.py 
+  456  nano settings.py 
+  457  cd ..
+  458  python3 manage.py migrate
+  459  python3 manage shell
+  460  python3 manage.py shell
+  461  ls
+  462  cd pythonportal/
+  463  ls
+  464  nano settings.py 
+  465  cd ..
+  466  python3 manage.py shell
+  467  python3 manage.py migrate
+  468  python3 manage.py makemigrations
+  469  systemctl status portalusrpy.service
+  470  systemctl start portalusrpy.service
+  471  systemctl status portalusrpy.service
+  472  exit
+  473  systemctl status portalusrpy.service
+  474  exit
+  475  cd
+  476  exit
+  477  systemctl status portalusrpy.service
+  478  xit
+  479  exit
+  480  reboot
+  481  ls
+  482  systemctl start portalusrpy.service
+  483  systemctl start portaladmpy-vi.service
+  484  systemctl start portaladmpy-v1.service
+  485  exit
+  486  systemctl stop portaladmpy-v1.service
+  487  systemctl status portaladmpy-v1.service
+  488  clear
+  489  exit
+  490  cd /etc
+  491  cd systemd
+  492  cd system
+  493  ls
+  494  pip3 install drf-yasg==1.20.0
+  495  exit
+  496  ls
+  497  cd
+  498  cd /etc
+  499  cd systemd
+  500  cd system
+  501  ls
+  502  pip3 install django-cors-headers
+  503  exit
+  504  cd /etc
+  505  cd systemd
+  506  cd system
+  507  ls
+  508  systemctl start portaladmpy-v1.service 
+  509  systemctl status portaladmpy-v1.service 
+  510  exit
+  511  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  512  cd /etc
+  513  cd systemd
+  514  cd system
+  515  ls
+  516  systemctl stop portaladmpy-v1.service 
+  517  systemctl status portaladmpy-v1.service 
+  518  exit
+  519  clear
+  520  nano portaladmpy-v1.service 
+  521  systemctl start portaladmpy-v1.service 
+  522  systemctl status portaladmpy-v1.service 
+  523  exit
+  524  systemctl stop portaladmpy-v1.service 
+  525  exit
+  526  cd /etc
+  527  cd systemd
+  528  cd system
+  529  pip3 install django-cors-headers
+  530  exit
+  531  cd
+  532  cd /etc
+  533  cd systemd
+  534  cd system
+  535  ls
+  536  systemctl start portaladmpy-v1.service 
+  537  systemctl status portaladmpy-v1.service 
+  538  ls
+  539  clear
+  540  ls
+  541  systemctl stop portalusrpy.service 
+  542  systemctl status portalusrpy.service 
+  543  exit
+  544  cd
+  545  cd /etc
+  546  cd systemd
+  547  cd system
+  548  ls
+  549  systemctl start portalusrpy.service 
+  550  systemctl status portalusrpy.service 
+  551  exit
+  552  systemctl status portalusrpy.service 
+  553  systemctl restart portalusrpy.service 
+  554  systemctl status portalusrpy.service 
+  555  exit
+  556  cd /etc
+  557  cd systemd
+  558  cd system
+  559  ls
+  560  free -g
+  561  ls
+  562  systemctl stop portalusrpy.service 
+  563  systemctl status portalusrpy.service 
+  564  exi
+  565  exit
+  566  ls
+  567  rm -rf portal-usr-python/
+  568  ls
+  569  exit
+  570  cd portal
+  571  cd portal-usr-python/
+  572  ls
+  573  python3 requirements.txt 
+  574  pip3 -r requirements.txt 
+  575  python3 -r requirements.txt 
+  576  history
+  577  pip3 install django-cors-headers
+  578  ls
+  579  cd pythonportal/
+  580  ls
+  581  nano settings.py 
+  582  cd /etc
+  583  cd systemd
+  584  cd system
+  585  ls
+  586  systemctl start portalusrpy.service 
+  587  systemctl status portalusrpy.service 
+  588  systemctl stop portalusrpy.service 
+  589  cd
+  590  ls
+  591  exit
+  592  ls
+  593  history
+  594  clear
+  595  python3 manage.py makemigrations
+  596  python3 manage.py migrate
+  597  ls
+  598  python3 manage.py makemigrations
+  599  cd /etc
+  600  cd systemd
+  601  cd system
+  602  ls
+  603  systemctl start portalusrpy.service 
+  604  systemctl status portalusrpy.service 
+  605  systemctl stop portalusrpy.service 
+  606  exit
+  607  ls
+  608  python3 manage.py createsuperuser
+  609  cd /etc
+  610  cd systemd
+  611  cd system
+  612  ls
+  613  cd
+  614  exit
+  615  python3 manage.py migrate
+  616  python3 manage.py makemigrations
+  617  cd /etc
+  618  ls
+  619  cd systemd
+  620  cd system
+  621  ls
+  622  systemctl start portalusrpy.service 
+  623  systemctl status portalusrpy.service 
+  624  systemctl stop portalusrpy.service 
+  625  exit
+  626  cd /etc
+  627  cd systemd
+  628  cd system
+  629  ls
+  630  systemctl start portalusrpy.service 
+  631  systemctl status portalusrpy.service 
+  632  exit
+  633  apt-get install sendmail
+  634  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  635  apt-get install sendmail
+  636  cd
+  637  cd /etc
+  638  cd systemd
+  639  cd system
+  640  ls
+  641  systemctl restart portalusrpy.service 
+  642  exit
+  643  systemctl restart portalusrpy.service 
+  644  exit
+  645  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  646  cd /etc
+  647  cd systemd
+  648  cd system
+  649  ls
+  650  systemctl restart portalusrpy.service 
+  651  systemctl status portalusrpy.service 
+  652  cd /etc
+  653  cat resolv.conf 
+  654  exit
+  655  sudo systemctl restart systemd-resolved.service
+  656  cd systemd
+  657  cd system
+  658  ls
+  659  sudo ufw allow 587/tcp
+  660  sudo ufw reload
+  661  exit
+  662  cd  /etc
+  663  cd systemd
+  664  cd system
+  665  ls
+  666  systemctl status portalusrpy.service 
+  667  systemctl restart portalusrpy.service 
+  668  systemctl status portalusrpy.service 
+  669  exit
+  670  cd /etc
+  671  cd systemd
+  672  cd system
+  673  systemctl restart portalusrpy.service 
+  674  exit
+  675  cd /etc
+  676  cd systemd
+  677  cd system
+  678  ls
+  679  systemctl restart portalusrpy.service 
+  680  exit
+  681  pip3 install django-anymail
+  682  free -g
+  683  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  684  pip3 install django-anymail
+  685  cd /etc
+  686  cd systemd
+  687  cd system
+  688  systemctl status portalusrpy.service 
+  689  systemctl restart portalusrpy.service 
+  690  systemctl status portalusrpy.service 
+  691  systemctl restart portalusrpy.service 
+  692  systemctl status portalusrpy.service 
+  693  exit
+  694  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  695  cd /etc
+  696  cd systemd
+  697  cd system
+  698  systemctl restart portalusrpy.service 
+  699  exit
+  700  systemctl restart portalusrpy.service
+  701  systemctl status portalusrpy.service
+  702  exit
+  703  systemctl status portalusrpy.service
+  704  systemctl restart portalusrpy.service
+  705  systemctl status portalusrpy.service
+  706  exit
+  707  systemctl restart portaladmpy-v1.service
+  708  systemctl status portaladmpy-v1.service
+  709  pip3 install drf-writable-nested
+  710  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  711  pip3 install drf-writable-nested
+  712  systemctl restart portaladmpy-v1.service
+  713  systemctl status portaladmpy-v1.service
+  714  systemctl restart portaladmpy-v1.service
+  715  systemctl status portaladmpy-v1.service
+  716  exit
+  717  systemctl restart portaladmpy-v1.service
+  718  pip3 install drf-writable-nested
+  719  systemctl restart portaladmpy-v1.service
+  720  systemctl status portaladmpy-v1.service
+  721  exit
+  722  systemctl restart portaladmpy-v1.service
+  723  exit
+  724  yum update
+  725  apt update 
+  726  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  727  apt update 
+  728  exit
+  729  cd /etc
+  730  cd systemd
+  731  cd system
+  732  ls
+  733  systemctl status portaladmpy-v1.service 
+  734  systemctl stop portaladmpy-v1.service 
+  735  ls
+  736  systemctl status portaladmpy-v1.service 
+  737  ls
+  738  exit
+  739  ls
+  740  cd portal_V1/
+  741  ls
+  742  vi settings.py 
+  743  exit
+  744  ls
+  745  pip3 --version
+  746  pip --version
+  747  pip install -r requirements.txt 
+  748  pip install django-cors-headers
+  749  pip install django-cpf-cnpj
+  750  pip install drf-writable-nested
+  751  ls
+  752  cd
+  753  cd /etc
+  754  cd systemd
+  755  cd system
+  756  ls
+  757  systemctl start portaladmpy-v1.service 
+  758  systemctl status portaladmpy-v1.service 
+  759  systemctl stop portaladmpy-v1.service 
+  760  systemctl status portaladmpy-v1.service 
+  761  exit
+  762  cd
+  763  cd /etc
+  764  cd systemd
+  765  cd system
+  766  systemctl start portaladmpy-v1.service 
+  767  systemctl status portaladmpy-v1.service 
+  768  exit
+  769  systemctl status portalusrpy.service
+  770  systemctl restart portalusrpy.service
+  771  systemctl status portalusrpy.service
+  772  systemctl restart portalusrpy.service
+  773  systemctl status portalusrpy.service
+  774  systemctl stop portalusrpy.service
+  775  systemctl status portalusrpy.service
+  776  exit
+  777  cd /etc
+  778  cd systemd
+  779  cd system
+  780  ls
+  781  systemctl start portalusrpy.service 
+  782  systemctl status portalusrpy.service 
+  783  systemctl stop portalusrpy.service 
+  784  systemctl status portalusrpy.service 
+  785  exit
+  786  cd /etc
+  787  cd systemd
+  788  cd system
+  789  ls
+  790  systemctl start portalusrpy.service 
+  791  systemctl status portalusrpy.service 
+  792  systemctl status portaladmpy-v1.service 
+  793  exit
+  794  ls
+  795  cd
+  796  cd /etc
+  797  cd systemd
+  798  cd system
+  799  ls
+  800  systemctl restart portalusrpy.service 
+  801  systemctl stop portalusrpy.service 
+  802  systemctl restart portalusrpy.service 
+  803  systemctl status portalusrpy.service 
+  804  exit
+  805  systemctl stop portalusrpy.service
+  806  systemctl status portalusrpy.service
+  807  exit
+  808  cd /etc
+  809  cd systemd
+  810  cd system
+  811  ls
+  812  systemctl start portalusrpy.service 
+  813  systemctl status portalusrpy.service 
+  814  exit
+  815  systemctl stop portalusrpy.service
+  816  exit
+  817  systemctl start portalusrpy.service
+  818  systemctl status portalusrpy.service
+  819  exit
+  820  systemctl restart portalusrpy.service
+  821  systemctl status portalusrpy.service
+  822  exit
+  823  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  824  exit
+  825  systemctl stop portalusrpy.service
+  826  systemctl status portalusrpy.service
+  827  exit
+  828  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  829  pip3 install -r requirements.txt 
+  830  pip3 install django-cors-headers
+  831  cd /etc
+  832  cd systemd
+  833  cd system
+  834  ls
+  835  systemctl start portalusrpy.service 
+  836  systemctl status portalusrpy.service 
+  837  systemctl stop portalusrpy.service 
+  838  exit
+  839  systemctl start portalusrpy.service
+  840  systemctl status portalusrpy.service
+  841  python 3 manage.py makemigrations
+  842  python3 manage.py makemigrations
+  843  python3 manage.py migrate
+  844  systemctl restart portalusrpy.service
+  845  systemctl status portalusrpy.service
+  846  systemctl stop portalusrpy.service
+  847  python3 manage.py createsuperuser
+  848  systemctl start portalusrpy.service
+  849  systemctl status portalusrpy.service
+  850  cd /etc
+  851  cd systemd
+  852  cd system
+  853  ls
+  854  systemctl status portaladmpy-v1.service 
+  855  systemctl status portaladmpy-v1.service -l
+  856  systemctl stop portaladmpy-v1.service
+  857  ls
+  858  systemctl status portaladmpy-v1.service -l
+  859  systemctl stop portaladmpy-v1.service
+  860  systemctl status portaladmpy-v1.service
+  861  systemctl restart portaladmpy-v1.service
+  862  systemctl status portaladmpy-v1.service
+  863  systemctl stop portaladmpy-v1.service
+  864  systemctl status portaladmpy-v1.service
+  865  ecit
+  866  exit
+  867  cd /etc
+  868  cd systemd
+  869  cd system
+  870  ls
+  871  systemctl start portaladmpy-v1.service 
+  872  systemctl status portaladmpy-v1.service 
+  873  exit
+  874  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  875  pip3 install PyMySQL
+  876  exit
+  877  ls
+  878  cd /etc
+  879  cd systemd
+  880  cd system
+  881  ls
+  882  systemctl stop portaladmpy-v1.service 
+  883  ls
+  884  clear
+  885  ls
+  886  cd
+  887  ls
+  888  exit
+  889  history
+  890  clear
+  891  ls
+  892  cd ..
+  893  ls
+  894  python3 manage.py make migrations
+  895  pip3 install PyMySQL
+  896  python3 manage.py make migrations
+  897  ls
+  898  cd portal_V1/
+  899  ls
+  900  exit
+  901  pip3 install pymysql
+  902  python3 manage.py make migrations
+  903  ls
+  904  cd ..
+  905  python3 manage.py make migrations
+  906  python3 manage.py makemigrations
+  907  python3 manage.py migrate
+  908  python3 manage.py makemigrations
+  909  ls
+  910  cd /etc
+  911  cd systemd
+  912  cd system
+  913  ls
+  914  systemctl start portaladmpy-v1.service 
+  915  systemctl status portaladmpy-v1.service 
+  916  exit
+  917  history
+  918  exit
+  919  cd /etc
+  920  cd systemd
+  921  cd system
+  922  ls
+  923  systemctl start portaladmpy-v1.service 
+  924  systemctl status portaladmpy-v1.service 
+  925  exit
+  926  cd eetc
+  927  cd /etc
+  928  cd ststemd
+  929  cd systemd
+  930  cd system
+  931  ls
+  932  systemctl restart portaladmpy-v1.service 
+  933  systemctl status portaladmpy-v1.service 
+  934  exit
+  935  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  936  cd /etc
+  937  cd systemd
+  938  cd system
+  939  ls
+  940  systemctl stop portaladmpy-v1.service 
+  941  systemctl status portaladmpy-v1.service 
+  942  exit
+  943  cd /etc
+  944  cd systemd
+  945  cd system
+  946  ls
+  947  nano portaladmpy-v1.service 
+  948  exit
+  949  ls
+  950  cd ..
+  951  ls
+  952  pip3 install -r requirements.txt
+  953  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+  954  pip3 install -r requirements.txt
+  955  ls
+  956  cd /etc
+  957  ls
+  958  cd systemd
+  959  cd system
+  960  ls
+  961  systemctl start portaladmpy-v1.service 
+  962  systemctl status portaladmpy-v1.service 
+  963  exit
+  964  python3 manage.py make migrations
+  965  cd ..
+  966  python3 manage.py make migrations
+  967  python3 manage.py migrate
+  968  python3 manage.py makemigrations
+  969  python3 manage.py makemigrations --merge
+  970  python3 manage.py migrate
+  971  cd /etc
+  972  cd ..
+  973  cd
+  974  exit
+  975  python manage.py createsuperuser
+  976  python3 manage.py createsuperuser
+  977  ls
+  978  cd ..
+  979  python3 manage.py createsuperuser
+  980  cd
+  981  cd /etc
+  982  cd systemd
+  983  cd system
+  984  ls
+  985  systemctl start portaladmpy-v1.service 
+  986  systemctl status portaladmpy-v1.service 
+  987  ls 
+  988  systemctl status portalusrpy.service 
+  989  systemctl restart portalusrpy.service 
+  990  systemctl status portalusrpy.service 
+  991  systemctl stop portalusrpy.service 
+  992  cat portalusrpy.service 
+  993  ls
+  994  nano portalrootpy.service
+  995  systemctl start portalrootpy.service 
+  996  systemctl status portalrootpy.service 
+  997  exit
+  998  python3 makemigrations
+  999  python3 manage.py makemigrations
+ 1000  python3 manage.py migrate
+ 1001  ls
+ 1002  cd portal_V1/
+ 1003  ls
+ 1004  clear
+ 1005  ls
+ 1006  nano settings.py 
+ 1007  exit
+ 1008  nano settings.py 
+ 1009  ls
+ 1010  cd portal_V1/
+ 1011  nano settings.py 
+ 1012  ls
+ 1013  cat __init__.py 
+ 1014  exit
+ 1015  ls
+ 1016  cd ..
+ 1017  python3 manage.py makemigrations
+ 1018  exit
+ 1019  cd ..
+ 1020  python3 manage.py makemigrations
+ 1021  python3 manage.py migrate
+ 1022  ls
+ 1023  cd portal_V1/
+ 1024  ls
+ 1025  cd __pycache__/
+ 1026  ls
+ 1027  rm *
+ 1028  ls
+ 1029  cd ..
+ 1030  ls
+ 1031  cd ..
+ 1032  ls
+ 1033  rm db.sqlite3 
+ 1034  ls
+ 1035  python3 manage.py makemigrations
+ 1036  python3 manage.py migrate
+ 1037  cd ..
+ 1038  exit
+ 1039  python3 manage.py makemigrations
+ 1040  python3 manage.py migarte
+ 1041  python3 manage.py migrate
+ 1042  cd /etc
+ 1043  cd systemd
+ 1044  cd system
+ 1045  systemctl start portaladmpy-v1.service 
+ 1046  systemctl status portaladmpy-v1.service 
+ 1047  exit
+ 1048  ls
+ 1049  cd empresas/
+ 1050  ls
+ 1051  cd __pycache__/
+ 1052  ls
+ 1053  rm *.*
+ 1054  ls
+ 1055  cd ..
+ 1056  ls
+ 1057  cd ..
+ 1058  python3 manage.py migrate
+ 1059  python3 manage.py makemigrations
+ 1060  cd /etc
+ 1061  cd systemd
+ 1062  cd system
+ 1063  systemctl restart portaladmpy-v1.service 
+ 1064  systemctl status portaladmpy-v1.service 
+ 1065  systemctl stop portaladmpy-v1.service 
+ 1066  ls
+ 1067  nano portalrootpy.service 
+ 1068  nano portaladmpy-v1.service 
+ 1069  systemctl start portaladmpy-v1.service 
+ 1070  systemctl status portaladmpy-v1.service 
+ 1071  top
+ 1072  exit
+ 1073  python3 manage.py makemigrations
+ 1074  python3 manage.py migrate
+ 1075  cd /etc
+ 1076  cd systemd
+ 1077  ls
+ 1078  cd system
+ 1079  ls
+ 1080  systemctl restart portaladmpy-v1.service 
+ 1081  systemctl status portaladmpy-v1.service 
+ 1082  exit
+ 1083  cd /etc
+ 1084  cd systemd
+ 1085  cd system
+ 1086  ls
+ 1087  exit
+ 1088  ls
+ 1089  cd /etc
+ 1090  cd systemd
+ 1091  cd system
+ 1092  ls
+ 1093  nano portalusrpy.service 
+ 1094  exit
+ 1095  ls
+ 1096  python3 manage.py makemigrations
+ 1097  python3 manage.py migrate
+ 1098  cd /etc
+ 1099  cd systemd
+ 1100  cd system
+ 1101  ls
+ 1102  systemctl start portalusrpy.service 
+ 1103  systemctl status portalusrpy.service 
+ 1104  cd
+ 1105  exit
+ 1106  cd /etc
+ 1107  cd systemd
+ 1108  cd system
+ 1109  systemctl restart portalusrpy.service 
+ 1110  systemctl status portalusrpy.service 
+ 1111  exit
+ 1112  python3 manage.py createsuperuser
+ 1113  cd /etc
+ 1114  cd system
+ 1115  cd systemd
+ 1116  ls
+ 1117  cd system
+ 1118  clear
+ 1119  ls
+ 1120  systemctl stop portalusrpy.service 
+ 1121  systemctl status portalusrpy.service 
+ 1122  systemctl start portalusrpy.service 
+ 1123  systemctl status portalusrpy.service 
+ 1124  systemctl stop portalusrpy.service 
+ 1125  exit
+ 1126  cd /etc
+ 1127  cd systemd
+ 1128  cd system
+ 1129  systemctl start portalusrpy.service 
+ 1130  systemctl status portalusrpy.service 
+ 1131  exit
+ 1132  python3 manage.py makemigrations
+ 1133  python3 manage.py migrate
+ 1134  cd /etc
+ 1135  cd systemd
+ 1136  cd system
+ 1137  systemctl restart portalusrpy.service 
+ 1138  systemctl status portalusrpy.service 
+ 1139  exit
+ 1140  cd /etc
+ 1141  cd systemd
+ 1142  cd system
+ 1143  systemctl restart portalusrpy.service 
+ 1144  systemctl status portalusrpy.service 
+ 1145  exit
+ 1146  cd /etc
+ 1147  exit
+ 1148  ls
+ 1149  cd ..
+ 1150  ls
+ 1151  python3 manage.py makemigrations
+ 1152  python3 manage.py migrate
+ 1153  cd /etc
+ 1154  cd systemd
+ 1155  cd system
+ 1156  systemctl restart portalusrpy.service 
+ 1157  systemctl status portalusrpy.service 
+ 1158  exit
+ 1159  ls
+ 1160  pip3 install -r requirements.txt 
+ 1161  cd /etc
+ 1162  cd systemd
+ 1163  cd system
+ 1164  systemctl restart portalusrpy.service 
+ 1165  systemctl status portalusrpy.service 
+ 1166  exit
+ 1167  cd /etc
+ 1168  cd systemd
+ 1169  cd system
+ 1170  ls
+ 1171  systemctl stop portalusrpy.service 
+ 1172  systemctl start portalusrpy.service 
+ 1173  systemctl status portalusrpy.service 
+ 1174  exit
+ 1175  cd /etc
+ 1176  cd systemd
+ 1177  cd system
+ 1178  systemctl stop portalusrpy.service 
+ 1179  systemctl start portalusrpy.service 
+ 1180  systemctl status portalusrpy.service 
+ 1181  exit
+ 1182  cd /etc
+ 1183  cd systemd
+ 1184  cd system
+ 1185  systemctl status portalusrpy.service 
+ 1186  systemctl restart portalusrpy.service 
+ 1187  systemctl status portalusrpy.service 
+ 1188  systemctl stop portalusrpy.service 
+ 1189  systemctl status portalusrpy.service 
+ 1190  exit
+ 1191  pip3 install -r requirements.txt 
+ 1192  cd /etc
+ 1193  cd systemd
+ 1194  cd system
+ 1195  systemctl start portalusrpy.service 
+ 1196  systemctl status portalusrpy.service 
+ 1197  clear
+ 1198  systemctl status portalusrpy.service 
+ 1199  systemctl restart portalusrpy.service 
+ 1200  systemctl status portalusrpy.service 
+ 1201  exit
+ 1202  python3 manage.py makemigrations
+ 1203  python3 manage.py migrate
+ 1204  cd /etc
+ 1205  cd systemd
+ 1206  cd system
+ 1207  systemctl restart portalusrpy.service 
+ 1208  systemctl status portalusrpy.service 
+ 1209  systemctl restart portalusrpy.service 
+ 1210  systemctl status portalusrpy.service 
+ 1211  pwd
+ 1212  cd
+ 1213  /etc/systemd/system systemctl status portalusrpy.service
+ 1214  systemctl status /etc/systemd/system/portalusrpy.service
+ 1215  systemctl restart0,30 * * * * portalusrpy.service
+ 1216  crontab -e
+ 1217  clear
+ 1218  crontab -e
+ 1219  systemctl status portalusrpy.service 
+ 1220  exit
+ 1221  systemctl status portalusrpy.service 
+ 1222  exit
+ 1223  systemctl status portalusrpy.service 
+ 1224  exit
+ 1225  systemctl status portalusrpy.service 
+ 1226  exit
+ 1227  systemctl status portalusrpy.service 
+ 1228  exit
+ 1229  cd /etc
+ 1230  cd systemd 
+ 1231  cd system
+ 1232  ls
+ 1233  systemctl stop portaladmpy-v1.service 
+ 1234  systemctl stop portalrootpy.service 
+ 1235  systemctl stop portalusrpy.service 
+ 1236  exit
+ 1237  pip3 freeze > requirements.txt
+ 1238  git add .
+ 1239  git commit -m "pip freeze > requirements.txt"
+ 1240  git push
+ 1241  cd ..
+ 1242  ls
+ 1243  cd portal-root-python/
+ 1244  pip3 freeze > requirements.txt
+ 1245  cat requirements.txt 
+ 1246  ls
+ 1247  git add .
+ 1248  git commit -m "pip freeze > requirements.txt"
+ 1249  git push 
+ 1250  cd ..
+ 1251  ls
+ 1252  cd portal-adm-python/
+ 1253  pip3 freeze > requirements.txt
+ 1254  git add .
+ 1255  git commit -m "pip freeze > requirements.txt"
+ 1256  git push
+ 1257  cd /etc
+ 1258  cd systemd
+ 1259  cd system
+ 1260  ls
+ 1261  git clone https://github.com/caiobiondo/serverdjangofile.git
+ 1262  ls
+ 1263  cp portaladmpy-v1.service serverdjangofile/
+ 1264  cp portalrootpy.service serverdjangofile/
+ 1265  cp portalusrpy.service serverdjangofile/
+ 1266  cd serverdjangofile/
+ 1267  ls
+ 1268  hystory.txt
+ 1269  history > hystory.txt

@@ -1,0 +1,10 @@
+[Unit]
+Description=Django-Backend-Portal-Root
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/ubuntu/portal-root-python/manage.py runserver 0.0.0.0:7000
+
+[Install]
+WantedBy=multi-user.target
